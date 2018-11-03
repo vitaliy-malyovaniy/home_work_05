@@ -1,0 +1,37 @@
+.cta-block{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: left;
+    border-radius: 0.3rem;
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.56);
+    color: #007bff;
+}
+hr{
+    border-top: 1px solid rgb(0, 123, 255);
+}
+.catalog .catalog-item{
+    cursor: pointer;
+}
+.catalog .catalog-item img{
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 21%, 100% 0, 45% 0%);
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 21%, 100% 0, 45% 0%);
+    transition: clip-path 0.35s;
+    transition: -webkit-clip-path 0.35s;
+}
+.catalog .catalog-item:hover img{
+    clip-path: polygon(24% 34%, 10% 56%, 46% 100%, 100% 21%, 85% 0, 45% 60%);
+    -webkit-clip-path: polygon(23% 36%, 10% 56%, 46% 100%, 100% 21%, 85% 0, 45% 60%);
+}
+
+.catalog .catalog-item img{
+    clip-path:         polygon(0% 0%, 0% 43%, 0% 53%, 0% 100%, 45% 100%, 55% 100%,100% 100%, 100% 53%, 100% 43%, 100% 0%, 55% 0%, 45% 0%);
+    -webkit-clip-path: polygon(0% 0%, 0% 43%, 0% 53%, 0% 100%, 45% 100%, 55% 100%,100% 100%, 100% 53%, 100% 43%, 100% 0%, 55% 0%, 45% 0%);
+    transition: clip-path 0.35s;
+    transition: -webkit-clip-path 0.35s;
+}
+.catalog .catalog-item:hover img{
+    clip-path:         polygon(43% 38%, 15% 38%, 15% 58%, 43% 58%, 43% 86%, 57% 86%, 57% 58%, 85% 58%, 85% 38%, 57% 38%, 57% 14%, 43% 14%);
+    -webkit-clip-path: polygon(43% 38%, 15% 38%, 15% 58%, 43% 58%, 43% 86%, 57% 86%, 57% 58%, 85% 58%, 85% 38%, 57% 38%, 57% 14%, 43% 14%);
+}
